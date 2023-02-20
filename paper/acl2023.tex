@@ -37,7 +37,7 @@
 %
 % and set <dim> to something 5cm or larger.
 
-\title{Abstractive- and Extractive-Text-Summarisation Algorithm Performance Assessment on Multi-XScience}
+\title{Abstract generation of research articles with extractive summarisation}
 
 % Author information can be set in various styles:
 % For several authors from the same institution:
@@ -69,7 +69,8 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-BULLSHIT SUMMARY: Multi-XScience dataset was created for testing performance of multi-document summarisation algorithms. The dataset is claimed to have high level of abstractiveness and is oriented towards testing the performance of abstractive-summarisation algorithms. However, other evaluation metrics important for algorithm feasibility assessment might be overlooked. For example, topic preservation. Herein, I test the performance of two algorithms: X and Y on Multi-Xscience dataset. X is an extractive algorithm, and Y is an abstractive algorithm. I show that, although abstractiveness is ROUGE is higher for Y than for X, topic preservation is higher for X than for Y. 
+This project aims at developing a tool to generate an abstract automatically based on the main text of a research manuscript. To this end, extractive summarisation is employed. The motivation behind chosing extractive summarisation is, in essense, the neccessety to preserve the meaning of the key sentences from the main text. Extractive summarisation will retrieve sentences based on their importance without rephrasing them, thereby excluding misinterpretations. This is crucial for scientific texts. Blablabla dataset was used. Two algorithms were chosen to implement this task: gensim as a baseline and pretrained transformer. Their performance was assessed using X and Y metrics. The obtained results show that Y better suits for the considered task. 
+
 \end{abstract}
 
 \section{Introduction}
